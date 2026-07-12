@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_arimax_modeling",
+  "source_file": "Project/ARIMAX Modeling Program 2.sas",
+  "source_blob_sha": "b646b3a8c36343f354254463f11acd12dd548c52",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "The author's flagship ARIMAX model: log_Precipitation crosscorr against SpecificHumidity/RelativeHumidity/Temperature with seasonal lag=12 terms, IDENTIFY/ESTIMATE/FORECAST/OUTLIER statements unmodified. LIBNAME-backed dataset substituted with a 60-row inline datalines slice (Jan 2000-Dec 2004, five years so the seasonal lag=12 terms have enough history). ODS Graphics turned off (SVG rendering on this fitted model separately errors regardless of PLOTS= scope -- filed as a Jenner bug, not something this bundle depends on). ESTIMATE's OUTSTAT= option dropped (Jenner's ESTIMATE-statement parser doesn't accept it yet, also filed) while OUTEST=/OUTMODEL= are kept since those parse and run. expected.json pins log lines and output substrings rather than exact byte-for-byte output because the OUTLIER statement's borderline Z-score entries have mild run-to-run nondeterminism in the ARIMA ML fit; the four clearly-significant outliers and all AIC/BIC/model-summary lines are stable across repeated runs and are what's pinned."
+}

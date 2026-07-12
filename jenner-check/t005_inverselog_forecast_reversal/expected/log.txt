@@ -1,0 +1,23 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.OUT_ARIMAX_FORECAST
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote work.OUT_ARIMAX_FORECAST (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.OUTown
+
+
+NOTE: Read 12 rows from work.OUT_ARIMAX_FORECAST.
+NOTE: Wrote work.OUTown (12 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=work.OUTown
+
+NOTE: PROC PRINT completed: 12 observations printed, 6 variables
+

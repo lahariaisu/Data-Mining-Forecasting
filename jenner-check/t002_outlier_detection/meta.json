@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_outlier_detection",
+  "source_file": "Project/OutlierDetection.sas",
+  "source_blob_sha": "5736d474a2d87fdd80c328d46d4a5206b765458c",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "Precipitation outlier flagging against the author's own derived bounds (0.395/355.900), unmodified. LIBNAME-backed dataset substituted with the same 24-row inline datalines slice used in t001, since the runner ships script text only."
+}

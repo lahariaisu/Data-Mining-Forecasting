@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_log_transformation",
+  "source_file": "Project/Log_Transformation.sas",
+  "source_blob_sha": "66324b48de16d44a8af810d9efc451b90578b9fc",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "Log transform of Precipitation from the author's stsm.forecasting_finalproject step, unmodified. LIBNAME-backed dataset substituted with a 24-row inline datalines slice (Dec 2004-Nov 2006) of the repo's own Project/Rainfall_data.csv, since the runner ships script text only, no data files."
+}
