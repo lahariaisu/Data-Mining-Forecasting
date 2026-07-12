@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_interquartile_detection",
+  "source_file": "Project/InterQuartile_Detection.sas",
+  "source_blob_sha": "33b7a1d9af2410b5023df5e80a7ddfecd9375fef",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "PROC UNIVARIATE quartile extraction on Precipitation, unmodified (added a trailing PROC PRINT of the OUTPUT OUT= dataset so the run has visible listing output beyond the UNIVARIATE report itself). LIBNAME-backed dataset substituted with the same 24-row inline datalines slice used in t001/t002."
+}

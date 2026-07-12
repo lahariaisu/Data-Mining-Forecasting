@@ -1,0 +1,42 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.OUT_ARIMAX_FORECAST
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote work.OUT_ARIMAX_FORECAST (12 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.outown
+
+
+NOTE: Read 12 rows from work.OUT_ARIMAX_FORECAST.
+NOTE: Wrote work.outown (12 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA WORK.Metric_new
+
+
+NOTE: Read 12 rows from work.outown.
+NOTE: Wrote WORK.Metric_new (12 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: Output dataset metrics_data has 1 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA metrics
+
+
+NOTE: Read 1 rows from metrics_data.
+NOTE: Wrote metrics (1 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=metrics
+
+NOTE: PROC PRINT completed: 1 observations printed, 3 variables
+

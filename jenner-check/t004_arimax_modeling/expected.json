@@ -1,0 +1,22 @@
+{
+  "_captured_at": "2026-07-12T14:15:00Z",
+  "_captured_run_id": "r_67836482bce64e9fbd5fa447e4882544",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset Work.RESIDUALS_OUT created with 12 observations.",
+    "NOTE: OUTCOV dataset work.outcov created.",
+    "NOTE: OUTEST dataset work.outest created.",
+    "NOTE: OUTMODEL dataset work.outmodel created.",
+    "NOTE: PROC ARIMA completed. 1 model(s) estimated."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "output_contains": [
+    "Name of Variable = log_Precipitation",
+    "Crosscorrelations of log_Precipitation and SpecificHumidity",
+    "AIC: 156.0455",
+    "BIC: 174.7575",
+    "4     AO           5.6063       3.4120     2.6620"
+  ],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

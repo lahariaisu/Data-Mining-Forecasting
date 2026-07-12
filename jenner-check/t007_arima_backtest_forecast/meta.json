@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_arima_backtest_forecast",
+  "source_file": "Project/STSM03s04(residual).sas",
+  "source_blob_sha": "a779e5a1bb903de559cced0b3b15e66959d4905f",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "First block of the author's multi-stage validation script (labeled STSM03s04a.sas in a comment): a seasonal ARIMA on log_Precipitation with BACK=12 backtesting (forecast against 12 already-observed months, plus 12 months ahead), unmodified. Later blocks in the same file depend on multiple sequential IDENTIFY/ESTIMATE pairs (blocked by a filed Jenner engine bug -- see run notes) and %include an external Macros2.sas not present in this repo, so only this first, self-contained block is bundled. LIBNAME-backed dataset substituted with the same 60-row inline datalines slice used in t004."
+}

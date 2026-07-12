@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_inverselog_forecast_reversal",
+  "source_file": "Project/InverseLog.sas",
+  "source_blob_sha": "000039411ac15710d3bae4ad43c2429eb4edb823",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "Reverses the author's log(Precipitation+1) transform on a forecast dataset (EXP-based) and computes RESIDUAL, unmodified. work.OUT_ARIMAX_FORECAST (the FORECAST OUT= dataset t004's ARIMAX model produces) mocked with 12 rows built from the repo's own Project/Rainfall_data.csv log-precipitation values paired with a nearby simulated FORECAST column, matching PROC ARIMA's FORECAST OUT= column shape."
+}

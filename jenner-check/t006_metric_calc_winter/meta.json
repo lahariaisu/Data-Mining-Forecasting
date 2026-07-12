@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_metric_calc_winter",
+  "source_file": "Project/METRIC_CALC_WINTER.sas",
+  "source_blob_sha": "4648f2969db959c0a347ca8fb369c6c5c4a7f2cf",
+  "source_commit": "de859b82085d082be70ce0a9ed0291e6c253d162",
+  "notes": "RMSE/MAE/MAPE forecast-accuracy metrics via PROC MEANS, unmodified. work.outown substituted by inlining the same InverseLog.sas reversal logic used in t005, built from the same 12-row mock forecast dataset, since METRIC_CALC_WINTER.sas depends on that upstream dataset rather than reading raw data directly."
+}

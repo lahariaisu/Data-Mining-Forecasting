@@ -1,0 +1,63 @@
+                                                The UNIVARIATE Procedure
+                                                Variable:  Precipitation
+
+                                                        Moments
+
+N                                 24    Sum Weights                       24
+Mean                      274.237083    Sum Observations         6581.690000
+Std Deviation             395.655319    Variance               156543.131482
+Skewness                    1.265592    Kurtosis                    0.139397
+Uncorrected SS        5405435.493100    Corrected SS          3600492.024096
+Coeff Variation           144.274915    Std Error Mean             80.762804
+
+            Basic Statistical Measures            
+
+Location              Variability                 
+--------  ----------  -------------  -------------
+Mean      274.237083  Std Deviation     395.655319
+Median     19.850000  Variance       156543.131482
+Mode        0.000000  Range            1122.560000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min         0.000000
+1%             0.000000
+5%             0.000000
+10%            0.000000
+25% Q1         0.010000
+50% Median    19.850000
+75% Q3       436.975000
+90%         1052.650000
+95%         1095.380000
+99%         1122.560000
+100% Max    1122.560000
+
+          Extreme Observations           
+
+Lowest              Highest              
+--------  --------  --------  -----------
+Value     0.000000  Value      776.410000
+Value     0.000000  Value      799.320000
+Value     0.000000  Value     1052.650000
+Value     0.000000  Value     1095.380000
+Value     0.000000  Value     1122.560000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.395586463  0.002484955
+Sign                      9.5  0.000003815
+Signed Rank               190  0.00013188
+
+
+  Obs  P_25   P_50     P_75
+-----  ----  -----  -------
+    1  0.01  19.85  436.975
+
+
